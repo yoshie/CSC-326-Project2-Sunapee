@@ -1,0 +1,12 @@
+<% include header %>
+	<!-- Example of evaluating variables in EJS -->
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+
+    <!-- Example of executing JavaScript code in EJS -->
+    <ul>
+	<% for (var i = 0; i < 20; i++) { %>
+    	   <li>The number <%= i %></li>
+        <% } %>
+    </ul>
+<% include footer %>
